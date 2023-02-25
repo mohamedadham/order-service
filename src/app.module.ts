@@ -23,7 +23,7 @@ import { RabbitMQModule } from '@golevelup/nestjs-rabbitmq';
           type: 'direct',
         },
       ],
-      uri: 'amqp://localhost:5672',
+      uri: 'amqp://rabbitmq:5672',
       connectionInitOptions: { wait: false },
     }),
   ],
